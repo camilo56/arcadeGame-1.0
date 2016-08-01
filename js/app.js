@@ -1,6 +1,7 @@
 (function(scope){
 	function app(){
 		this.initialize();
+		console.log('Add')
 	}
 //Se declara asi para que sea accesible desde cualquier funcion del objeto app
 	var canvas = app.prototype;
